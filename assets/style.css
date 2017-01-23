@@ -203,9 +203,10 @@ textarea {
 	}
 	.page-content {
 		width: 50%;
+		padding: 20px 25px;
 	}
 	.sidebar {
-		width: 40%;
+		width: 35%;
 	}
 	.header-inner {
 		max-width: 653px;
@@ -213,12 +214,31 @@ textarea {
 	nav {
 		margin-right: 40px;
 	}
+	.portfolio-item-container, .portfolio-item-container:nth-child(2n+2) {
+		margin-left: 0px;
+		margin-bottom: 60px;
+		clear: both;
+		width: 100%
+	}
+	.portfolio-image {
+		width: 100%;
+	}
+	.portfolio-item-title {
+		width: 100%;
+	}
+	.portfolio-item-title {
+		bottom: -30px;
+	}
+	form {
+		width:98%;
+	}
 }
 
 @media screen and (max-width: 768px) {
 
 	.main-content {
 		max-width:95%;
+		overflow: hidden;
 	}
 	.page-content {
 		width: 95%;
@@ -236,6 +256,26 @@ textarea {
 		margin-right: 0;
 	}
 
+	.portfolio-item-container, .portfolio-item-container:nth-child(2n+2) {
+	    clear: none;
+	    width: 45%;
+	    height: 100%;
+	    margin: 15px 15px 0 0;
+	    margin-bottom: 0px;
+	    position: relative;
+	}
+	.page-content > h2 {
+		width: 93%;
+	}
+	.sidebar > h3 {
+		width: 93%;
+	}
+	.portfolio-item-title {
+		bottom: 10px;
+	}
+	form {
+		width:92%;
+	}
 }
 
 @media screen and (max-width: 640px) {
@@ -291,6 +331,18 @@ textarea {
 	line-height: 1.2em;
 	font-size: 110%;
 	}
+
+	.portfolio-item-container, .portfolio-item-container:nth-child(2n+2) {
+    clear: both;
+    width: 92%;
+    margin-bottom: 50px;
+	}
+
+    .portfolio-item-title {
+    	bottom: 20px;
+	}
+
+}
 }
 
 
