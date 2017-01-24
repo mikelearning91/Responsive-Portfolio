@@ -328,14 +328,14 @@ textarea {
 	}
 
 	.lhOneEM {
-	line-height: 1.2em;
-	font-size: 110%;
+		line-height: 1.2em;
+		font-size: 110%;
 	}
 
 	.portfolio-item-container, .portfolio-item-container:nth-child(2n+2) {
-    clear: both;
-    width: 92%;
-    margin-bottom: 50px;
+    	clear: both;
+    	width: 92%;
+    	margin-bottom: 50px;
 	}
 
     .portfolio-item-title {
@@ -343,6 +343,8 @@ textarea {
 	}
 
 }
+@media screen and (max-width: 365px) {
+	.header {
+		height: 180px;
+	}
 }
-
-
